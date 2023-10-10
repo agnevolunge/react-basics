@@ -18,7 +18,7 @@ function ShopItem (props) {
 
             <li className="shop-contact-item">
             <span className="shop-contact-title">Address:</span> 
-            <a href={props.mapLink} target="_blank">{props.address}</a>
+            <a href={props.mapLink} rel="opener">{props.address}</a>
             </li>
         </ul>
         </div>
